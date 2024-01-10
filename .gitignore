@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+
+# React build
+build/
+
+# Editor files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log

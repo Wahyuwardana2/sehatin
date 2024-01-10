@@ -1,0 +1,13 @@
+# \_redirects
+
+# Redirect from /api/recipe/_ to /api/rekomendasimakanan/_
+
+/api/recipe/\* /api/rekomendasimakanan/:splat 200
+
+# Redirect from /api/recipes/_ to /api/rekomendasimakanan/_
+
+/api/recipes/\* /api/rekomendasimakanan/:splat 200
+
+# For any other requests, serve the index.html
+
+/\* /index.html 200
